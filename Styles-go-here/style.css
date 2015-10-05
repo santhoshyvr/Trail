@@ -1,0 +1,27 @@
+/* Styles go here */
+
+.memberBlock{
+    float:left;
+    background: rgba(0, 0, 0, 0) 
+    -moz-linear-gradient(center top , #e0f3fd 0%, #ffffff 50%, #e0f3fd 100%)
+    repeat scroll 0 0;
+    border-radius: 10px;
+    border: 1px solid #d1e7f0;
+    padding: 20px; 
+    height: 175px;
+    margin: 0 18px 0 0;
+    width: 150px;
+  }
+  
+  h1{
+       color: #a81882;
+  }
+
+.memberText{
+    color: #a81882;
+    font-family: arial;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 22px;
+    margin: 0;
+  }
