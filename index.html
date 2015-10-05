@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app = "MemberPage">
+
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.10/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.10/angular-route.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+		
+
+  <body ng-controller="mainController">
+    <h1>Welcome, {{memberName}}</h1>
+    <section>
+    <div class = "memberBlock">
+      <span class = "memberText">Your Member ID:</span><br>
+      <span class = "textFromService">{{memberID}}</span><br><br>
+      <span class = "memberText">Your Address</span><br>
+      <span class = "textFromService">{{Address}}</span><br>
+    </div>
+     <div class = "memberBlock">
+      <span class = "memberText">Your PCP:</span><br>
+      <span class = "textFromService">{{PCPName}}</span><br><br>
+    </div>
+     <div class = "memberBlock">
+      <span class = "memberText">Membership Start:</span><br>
+      <span class = "textFromService">{{startDate}}</span><br><br>
+      <span class = "memberText">Talk to a nurse 24/7:</span><br>
+      <span class = "textFromService">Get answers to your medical questions any time, night or day</span><br><br>
+    </div>
+    </section>
+  </body>
+</html>
